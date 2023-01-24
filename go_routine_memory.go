@@ -33,4 +33,4 @@ func main() {
 	fmt.Printf("%.3fkb\n", float64(after-before)/numGoroutines/1000)
 }
 
-// go run memory.go
+// go run go_routine_memory.go
